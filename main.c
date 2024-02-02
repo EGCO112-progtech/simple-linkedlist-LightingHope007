@@ -41,7 +41,7 @@ int main(int argc, const char * argv[]) {
     struct node BeforeA;
     BeforeA.value = 2;
     BeforeA.next = head;
-    head = &BeforeA;
+    head = &BeforeA
     typedef struct node* NodePtr;
     NodePtr tmp=head; //add temp value to faciliate
         
